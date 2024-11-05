@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  background-color: #f4f5f8;
+}
+
+.app-header {
+  background-color: white;
+  border-bottom: 1px solid #e6e7eb;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.app-content {
+  padding: 20px;
+}

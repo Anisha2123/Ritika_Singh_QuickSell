@@ -1,0 +1,22 @@
+/* Board.css */
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+  min-height: calc(100vh - 100px);
+}
+
+.board-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.board-message.error {
+  color: #dc3545;
+}
+

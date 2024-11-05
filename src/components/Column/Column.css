@@ -1,0 +1,52 @@
+
+
+/* Column.css */
+.column {
+  min-width: 300px;
+  background: #f4f5f8;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.ticket-count {
+  background: #e6e7eb;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.column-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
